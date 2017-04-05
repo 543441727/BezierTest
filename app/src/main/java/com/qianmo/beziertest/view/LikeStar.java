@@ -57,6 +57,9 @@ public class LikeStar extends ViewGroup {
 
     private void init(final Context context) {
         mStarDrawable = new ArrayList<>();
+
+
+
         mInterpolators = new ArrayList<>();
         mStartPoint = new PointF();
         mEndPoint = new PointF();
